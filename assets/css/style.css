@@ -608,7 +608,9 @@ button, a { transition: var(--transition); }
   margin-bottom: 20px;
 }
 
-.service-card .card-title { margin-bottom: 15px; }
+.service-card .card-title { 
+  font-size: 12px;
+  margin-bottom: 15px; }
 
 .service-card .card-title > a:is(:hover, :focus) { color: var(--orange-soda); }
 
